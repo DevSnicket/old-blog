@@ -38,7 +38,7 @@ new BinaryFormatter().Serialize(
 The "startup object" (e.g. Program.Main) needs to handle getting executed as a sub-process. It recognises this by checking for the single argument passed in when the main process started it. The input and output streams can then be used either side of an invoke.
 
 ``` csharp
-if (arguments.Count == 1 &amp;&amp; arguments.First() == "RunSubprocess")
+if (arguments.Count == 1 && arguments.First() == "RunSubprocess")
 {
     MethodAndParameter methodAndParameter;
 
