@@ -16,4 +16,4 @@ What if instead of a framework the limitations are in the programming language i
 
 I've found there isn't a language that best suits my needs, and that having written a lot of code and having an understanding of a wide range of languages, I know what I want. I write in what I'd describe as a structured functional style and C# comes close. However, even after building up my own library of general purpose methods for C# it needed something more, like Scala is to Java. Keeping in mind the nature of code generation I've described here, what I could turn all that on its head, with what is available now. Making it to easily generate concise well written C#, just like I was writing by hand, by having a clearly defined and reliable generator in C# which reads standard C#.
 
-Follow up: [Generating what and when](2014-07-25-the-cg-words.md)
+Follow up: [Generating what and when](2014-08-01-generating-what-and-when.md)
