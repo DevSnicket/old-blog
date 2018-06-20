@@ -23,4 +23,3 @@ It can be tempting to define the contract in as an abstract way as possible in o
 
 In recent years web based client development has promoted using many smaller complementary frameworks. If you decided to create a framework for your organisation or peers try and replicate this philosophy. It needs to be a framework and not the framework ([definite article](http://en.wikipedia.org/wiki/Article_(grammar)#Definite_article)). Being strict with the scope and so responsibility is especially important where there are execution entry points (i.e. where the system starts). They are a convenient location for any framework code and when uncontrolled encourage a progression to a singular monolithic framework.
 <h5>Piers</h5>
-Blah
