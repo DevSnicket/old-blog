@@ -13,6 +13,7 @@ Download:
 * [Source Code](https://github.com/devsnicket/TfsFileHistoryImage)
 
 The images below are a couple of examples. The first is a long file that has been allowed to get even longer. The second one starts out too long, but has been split up over time when there was the opportunity. They both predate a transition to TFS from SVN so you don't see back to their creation.
+
 |reformed<br/>character|bad to<br/>worse|the gibbering<br/>wreck|careful, might be time</br>to plan some refactoring|
 |-|-|-|-|
 |![](2014-07-16-animated-gif-of-a-files-tfs-history/reformed-character.gif)|![](2014-07-16-animated-gif-of-a-files-tfs-history/bad-to-worse.gif)|![](2014-07-16-animated-gif-of-a-files-tfs-history/the-gibbering-wreck.gif)|![](2014-07-16-animated-gif-of-a-files-tfs-history/careful-might-be-time-to-plan-some-refactoring.gif)|
