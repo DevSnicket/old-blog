@@ -14,8 +14,10 @@ Components in a system that exist to reuse often get called libraries. This term
 
 When it seems like a component is going to be more framework-like it can help direct the approach taken to defining the contract exposed for the components that use will use it. For instance your code is likely to expose types for the consuming component to implement.
 
-<blockquote>One important characteristic of a framework is that the methods defined by the user to tailor the framework will often be called from within the framework itself, rather than from the user's application code. The framework often plays the role of the main program in coordinating and sequencing application activity. This inversion of control gives frameworks the power to serve as extensible skeletons. The methods supplied by the user tailor the generic algorithms defined in the framework for a particular application.</blockquote>
-<div style="text-align: right;">- <a href="http://www.laputan.org/drc/drc.html" target="_blank">Designing Reusable Classes</a></div>
+```
+One important characteristic of a framework is that the methods defined by the user to tailor the framework will often be called from within the framework itself, rather than from the user's application code. The framework often plays the role of the main program in coordinating and sequencing application activity. This inversion of control gives frameworks the power to serve as extensible skeletons. The methods supplied by the user tailor the generic algorithms defined in the framework for a particular application.
+```
+&mdash; [Designing Reusable Classes](http://www.laputan.org/drc/drc.html)
 
 Terminology like API get used for creating such a contract although that might imply one can be added without affecting the implementation. However, appropriately structured framework code is intrinsically linked to how it will be used, and so how you think about the contract will have implications on the implementation. Where thinking of it as an API might be useful, for example, might be to independently version the contract. This can make it easier to support multiple versions while validating code built against previous version still has the expected behaviour.
 
